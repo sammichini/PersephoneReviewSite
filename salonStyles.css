@@ -1,0 +1,121 @@
+ /* CSS for term project by Sequoia Anichini */
+@font-face {
+    font-family: Merienda;
+    src: url("images/Merienda-Regular.ttf");
+  }
+
+html {
+    background: #6783b8;
+
+}
+
+body {
+    /*height: 100%;*/
+    background-image: url("images/hexagrams.png");
+    max-width: 101%;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    font-family: Merienda;
+
+	font-size:22px;
+	line-height: 40px;
+	color: #e2d7d7;
+
+    margin-top: 50px;
+    }
+    
+    nav {
+        /*margin: 50px;*/
+        background-color: rgb(160, 114, 114); /* nav bar across the screen*/
+        overflow: auto;
+        padding-bottom: 10px;
+        max-height: 50px;
+      
+        
+    }
+    /*The nav links*/
+    nav ul {
+        padding: opx;
+        margin: 0px;
+        list-style: none;
+        position: relative;
+        }
+        
+        /* allows text to look nice on nav bar */
+    nav ul li {
+        display:inline-block;
+        background-color: rgb(160 114, 114);
+        }
+    
+    nav a {
+        /*display:block;*/
+        padding:0 50px;	
+        color:#FFF;
+        font-size:20px;
+        line-height: 30px;
+        text-decoration:none;
+    }
+    
+    nav a:hover { 
+        background-color: #c58c8c; 
+        opacity: 80%;
+    }
+    
+   
+    nav ul ul {
+        display: none;
+        position: absolute; 
+        top: 60px; /* the height of the main nav */
+        
+    }
+        
+    .header {
+
+        text-align: center;
+    }
+
+    .image {
+
+        border-radius: 50px;
+    }
+
+    .class {
+
+        margin: 50px;
+        border: 3px;
+    }
+
+    .pageInfo {
+        font-size:30px;
+        padding: 30px;
+
+    }
+    /* Below, if mouse hovers over the text, gives an opaque background */
+    .text:hover, .paragraph:hover, .footer:hover, .table:hover, #veda:hover {
+
+        background: rgb(41, 104, 155);
+        opacity: 60%;
+    }
+
+    .text, .paragraph, .footer, .table {
+
+        margin: auto;
+        width: 60%;
+    }
+    
+    .center {
+
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    a:visited { 
+        color: rgb(244, 238, 248);
+    }
+
+    .table {
+        padding-left: 500px;
+        text-align: center;
+    }
+        
+   
